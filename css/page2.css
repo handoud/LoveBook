@@ -1,0 +1,225 @@
+main {
+    min-height: 102vh;
+    background: linear-gradient(215deg, #65dfc9, #6cd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    min-height: 80vh;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 3rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    border-radius: 50%;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+}
+
+.circle2 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 5%;
+    right: 10%;
+    z-index: 2;
+}
+
+h3 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    height: 120px;
+    background: linear-gradient(215deg, #65dfc9, #6cd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 3rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 15px;
+    font-family: 'Ballet', cursive;
+    margin: top 10px;
+    ;
+}
+
+h1 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 4;
+    backdrop-filter: blur(2rem);
+}
+
+.images {
+    flex: 3;
+    border: radius 2rem;
+    padding: 15px;
+}
+
+img {
+    height: 145px;
+    width: 145px;
+    border-radius: 1rem;
+    margin: 5px;
+    object-fit: cover;
+}
+
+video {
+    height: 145px;
+    width: 145px;
+    border-radius: 1rem;
+    margin: 5px;
+    object-fit: cover;
+}
+
+a {
+    color: cornflowerblue;
+    background: rgba(255, 255, 255, 0.00001);
+    border: rgba(255, 255, 255, 0.1);
+    text-decoration-line: none;
+}
+
+p {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 22px;
+}
+
+.page2 {
+    color: rgb(219, 63, 63);
+    background: rgba(255, 255, 255, 0.00001);
+    border: rgba(255, 255, 255, 0.1);
+    text-decoration-line: none;
+}
+
+.back {
+    z-index: 0;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width :650px) {
+    .dashboard {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 2rem;
+        z-index: 4;
+        backdrop-filter: blur(2rem);
+    }
+    .images {
+        flex: 3;
+        border: radius 2rem;
+        align-items: center;
+    }
+    .glass {
+        min-height: 80%;
+        width: 70%;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 3rem;
+        z-index: 3;
+        backdrop-filter: blur(2rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    a {
+        color: cornflowerblue;
+        background: rgba(255, 255, 255, 0.00001);
+        border: rgba(255, 255, 255, 0.1);
+        text-decoration-line: none;
+        justify-content: space-between;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 19px;
+    }
+    main {
+        width: 100%;
+        min-height: 102vh;
+        background: linear-gradient(215deg, #65dfc9, #6cd);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 12px;
+    }
+    img {
+        height: 145px;
+        width: 145px;
+        border-radius: 1rem;
+        margin: 5px;
+        object-fit: cover;
+        margin-left: 30px;
+        align-items: center;
+    }
+    .back {
+        z-index: 4;
+        position: absolute;
+        right: 10%;
+        top: 2%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    video {
+        height: 145px;
+        width: 145px;
+        border-radius: 1rem;
+        margin: 5px;
+        object-fit: cover;
+        margin-left: 30px;
+        align-items: center;
+    }
+}
